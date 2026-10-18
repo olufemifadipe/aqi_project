@@ -13,7 +13,7 @@ my_aqi_api_key = get_api_key('api_key.json')
 
 """task7"""
 def get_aqi_data(api_key):
-    url = "http://api.airvisual.com/v2/nearest_city?key="
+   url = "https://api.airvisual.com/v2/nearest_city?key="
     url_aqi = url + api_key
 
     response = requests.get(url_aqi)
