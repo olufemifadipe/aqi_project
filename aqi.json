@@ -1,0 +1,34 @@
+{
+    "status": "success",
+    "data": {
+        "city": "George Town",
+        "state": "George Town",
+        "country": "Cayman Islands",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -81.37436,
+                19.2866
+            ]
+        },
+        "current": {
+            "pollution": {
+                "ts": "2026-10-18T03:00:00.000Z",
+                "aqius": 28,
+                "mainus": "p2",
+                "aqicn": 7,
+                "maincn": "p2"
+            },
+            "weather": {
+                "ts": "2026-10-18T03:00:00.000Z",
+                "ic": "03n",
+                "hu": 78,
+                "pr": 1014,
+                "tp": 29,
+                "wd": 91,
+                "ws": 4.44,
+                "heatIndex": 34
+            }
+        }
+    }
+}
