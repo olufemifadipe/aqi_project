@@ -10,7 +10,6 @@ def get_api_key(filename):
 
 
 my_aqi_api_key = get_api_key('api_key.json')
-print(my_aqi_api_key)
 
 """task7"""
 def get_aqi_data(api_key):
